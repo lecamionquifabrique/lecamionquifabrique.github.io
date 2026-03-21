@@ -4,6 +4,34 @@
     text-transform: uppercase;
 }
 
+.intro-lead-in{
+    font-family: "Monserrat" !important;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    font-style: normal !important;
+}
+
+.barre {
+  display: block;
+  width: 5em;
+  margin-bottom: 2em;
+  height: 2px; /* Épaisseur */
+  background-color: white;
+}
+.traiteur-container {
+    margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Gère l'espace entre tous les éléments */
+}
+.traiteur-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Gère l'espace entre tous les éléments */
+}
+
 .brandFont{
     font-family: "Gloucester MT Extra Condensed", lcqf ;
 
@@ -65,4 +93,8 @@ iframe.maps {
 
 .line-initial {
 	line-height: initial;
+}
+
+body{
+    font-family: inter;
 }
