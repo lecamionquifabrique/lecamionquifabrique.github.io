@@ -1,7 +1,15 @@
 .brand{
+    /*
     font-family: "Gloucester MT Extra Condensed", lcqf !important;
     color: white !important;
+    */
+    font-family: "Judson", serif !important;
+    color: #F7B74D !important;
     text-transform: uppercase;
+}
+
+.navbar-default{
+    background-color: black;
 }
 
 .intro-lead-in{
@@ -9,31 +17,36 @@
     letter-spacing: 0.4em;
     text-transform: uppercase;
     font-style: normal !important;
+    color: #F7B74D !important;
+    font-weight: 100;
 }
 
 .barre {
   display: block;
-  width: 5em;
-  margin-bottom: 2em;
-  height: 2px; /* Épaisseur */
-  background-color: white;
+  width: 6em;
+  margin-bottom: 1em;
+  height: 3px; 
+  background-color: #F7B74D;
 }
 .traiteur-container {
     margin-top: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; /* Gère l'espace entre tous les éléments */
+  gap: 4em; 
 }
 .traiteur-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; /* Gère l'espace entre tous les éléments */
+  gap: 4em; 
 }
 
 .brandFont{
+    /*
     font-family: "Gloucester MT Extra Condensed", lcqf ;
+    */
+    font-family: "Judson", serif;
 
 }
 
